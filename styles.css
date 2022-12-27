@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chivo Mono", monospace;
+}
+
+body {
+  background-color: white;
+  height: 4500px;
+  /* background-color: #f7f5f2; */
+}
+
+/* NAVBAR START */
+#nav1 {
+  background-color: white;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  padding: 0 0.75rem;
+  align-items: center;
+}
+
+#nav1 ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+#nav1 ul li a {
+  padding: 0.75rem;
+  color: black;
+  text-decoration: none;
+}
+
+#nav1 ul li a:hover {
+  color: whitesmoke;
+  background-color: #323232;
+  border-radius: 2rem;
+  padding: 10px;
+}
+
+h1 {
+  padding: 3rem;
+  font-size: 30px;
+}
+
+.logomini {
+  width: 30%;
+  height: 30%;
+  margin-top: 10px;
+}
+/* NAVBAR END */
+
+/* HEADER START */
+.head h1 {
+  color: black;
+  text-align: center;
+  font-size: 95px;
+  margin-top: 50px;
+}
+.head h2 {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.banner {
+  padding-bottom: 30rem;
+}
+
+/* BUTTON START */
+.btn {
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 23px;
+  font-family: "Chivo Mono", monospace;
+  color: #000000;
+  font-size: 22px;
+  background: #ffffff;
+  padding: 10px 40px 10px 40px;
+  text-decoration: none;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+.btn:hover {
+  background: #c3c6c7;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* BUTTON END */
+
+/* HEADER END */
+
+/* CONTENT START */
+
+.content {
+  gap: 3rem 5rem;
+  padding-bottom: 40rem;
+}
+
+.content h2 {
+  font-family: sans-serif;
+  margin-left: 5%;
+  margin-bottom: 2rem;
+  font-size: 45px;
+}
+
+.content img {
+  float: left;
+  padding-right: 50px;
+}
+
+.content p {
+  font-family: sans-serif;
+  line-height: 2;
+  text-align: center;
+  font-size: 20px;
+}
+
+.buttons {
+  padding-inline: 100px 70px;
+  margin-left: 50%;
+}
+
+.btn2 {
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 13px;
+  font-family: "Chivo Mono", monospace;
+  color: #000000;
+  font-size: 17px;
+  background: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  line-height: 2;
+  margin: 5px;
+}
+
+.btn2:hover {
+  background: #c3c6c7;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.buy {
+  -webkit-border-radius: 23;
+  -moz-border-radius: 23;
+  border-radius: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000000;
+  font-size: larger;
+  background: #ffffff;
+  padding: 10px 30px;
+  text-decoration: none;
+  line-height: 2;
+  margin: 20px 20%;
+}
+
+.buy:hover {
+  background: #c3c6c7;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* CONTENT END */
+
+/* SECTİON2 START */
+.content2 {
+  padding-bottom: 20rem;
+}
+
+.ct2img {
+  width: 30rem;
+  margin-right: 566px;
+}
+
+.ct2img2 {
+  width: 29rem;
+}
+
+.content2 p {
+  padding: 40px 5%;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+/* SECTİON2 END */
+
+/* WRAPPER START */
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  width: 90%;
+  height: 400px;
+  position: relative;
+  background-color: rgb(232, 232, 232);
+  box-shadow: 0 10ox 20px -10px rgba(0, 0, 0, alpha);
+  display: flex;
+  overflow: hidden;
+}
+
+.slide {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  animation: slideshow 90s linear infinite;
+}
+
+.slide img {
+  width: 400px;
+  height: 400px;
+  padding: 0 20px 0 20px;
+}
+
+@keyframes slideshow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* WRAPPER END */
+
+/* DETAİLS START */
+
+.details h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.details p {
+  font-family: sans-serif;
+  padding: 30px 30px;
+  font-size: 18px;
+  color: rgb(97, 95, 94);
+}
+
+.details ul,
+li {
+  font-family: sans-serif;
+  padding: 5px 25px;
+}
+
+.details li {
+  list-style-type: circle;
+}
+/* DETAİLS END */
+
+/* FOOTER START */
+footer {
+  background-color: #c3c6c7;
+  padding: 70px 55px;
+  text-align: center;
+}
+footer h2 {
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: oblique;
+}
+/* FOOTER END */
